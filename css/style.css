@@ -1,0 +1,143 @@
+body{
+	background-color: #D2691E;
+}
+main{
+	background-color: antiquewhite;
+	margin-top: 20px;
+}
+.logo{
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin-right: 20px;
+}
+.titulos{
+	float: left;
+	width: 250px;
+	margin-top: 20px;
+	font-family: 'Marck Script', cursive;	
+}
+.titulos .titulo{
+	font-size: 50px;
+}
+.titulos .slogan{
+	font-size: 25px;
+}
+.redes-sociais{
+	width: 185px;
+	float: right;
+}
+.active{
+	font-weight: bold;
+	border-bottom: 5px solid #D2691E;
+}
+.active-receitas{
+	font-weight: bold;
+}
+.carousel-caption{
+	background-color: rgba(255,255,255,0.2);
+}
+.carousel-caption h5,
+.carousel-caption p{
+	text-shadow: 2px 2px 4px #000;
+}
+.carousel-caption h5{
+	font-size: 40px;
+}
+.carousel-caption p{
+	font-size: 20px;
+}
+h1{
+	font-size: 30px;
+}
+#myFooter{
+	background-color: #A0522D;
+	margin-top: 20px;
+	padding-top: 30px;
+	color: #FFF;
+}
+#myFooter .slogan-rodape{
+	font-size: 14px;
+}
+#myFooter .footer-copyright{
+	background-color: #2D1410;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	text-align: center;
+}
+#myFooter .footer-copyright p{
+	margin: 10px;
+}
+#myFooter ul{
+	list-style: none;
+	padding-left: 0px;
+	line-height: 25px;
+}
+#myFooter a:link, 
+#myFooter a:visited{
+	color: #D1D1D1;
+	text-decoration: none;
+}
+#myFooter a:hover,
+#myFooter a:active{
+	color: #FFF;
+}
+#myFooter h5{
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+#myFooter .social-networks{
+	margin-top: 20px;
+}
+#myFooter .social-networks a{
+	font-size: 32px;
+	color: #D1D1D1;
+	padding-top: 10px;
+	transition: 0.5s ease;
+}
+#myFooter .twitter:hover{
+	color: #00ACED;
+}
+#myFooter .facebook:hover{
+	color: #0077E2;
+}
+#myFooter .instagram:hover{
+	color: purple;
+}
+#myFooter .btn{
+	color: #FFF;
+	background-color: #2D1410;
+	border-radius: 20px;
+	border: none;
+	width: 150px;
+	display: block;
+	margin-top: 10px;
+	margin-left: 10px;
+	line-height: 25px;
+}
+#myFooter .btn:hover{
+	background-color: #1D0C09;
+}
+textarea{
+	resize: none;
+}
+
+/* Media querie */
+@media only screen and (max-width:  768px){
+	.logo,
+	.titulos,
+	.redes-sociais{
+		float: none;
+		clear: both;
+		text-align: center;
+		margin: 0px auto;
+	}
+	#myFooter{
+		text-align: center;
+	}
+	#myFooter .btn{
+		width: 120px;
+		margin: 0px auto;
+	}
+}
